@@ -1,0 +1,6 @@
+### Inicializar dados
+POST https://localhost:5001/api/inicializar/create
+
+### Criar Formas de Pagamento
+POST https://localhost:5001/api/inicializar/createformas
+

@@ -1,0 +1,11 @@
+### Cadastrar um nova categoria
+POST https://localhost:5001/api/venda/create
+Content-Type: application/json
+
+{
+    "Cliente" : "teste",
+    "FormasPagamentoId": 1
+}
+
+### Listar vendas
+GET https://localhost:5001/api/venda/list
